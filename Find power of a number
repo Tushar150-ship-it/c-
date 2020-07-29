@@ -1,0 +1,30 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	// Write your code here
+	int i,n;
+    cin>>i>>n;
+ int ans=1;
+ if(n==0)
+    {
+        cout<<"1"<<endl;
+       return 0;
+    }
+    else if(i==0)
+    {cout<<"0"<<endl;
+     return 0;
+      }
+ 
+    while(n>=1)
+ {
+     ans=ans*i;
+     n=n-1;
+ }
+   if(n!=0 || i!=0)
+    {cout<<ans<<endl;
+    return 0;
+    }
+
+  
+}
