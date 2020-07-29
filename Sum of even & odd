@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	// Write your code here
+
+    int n,even=0,odd=0,m;
+    cin>>n;
+    while(n>=1)
+    {
+        m=n%10;
+        if(m&1)
+        {
+            even=even+m;
+        }
+        else
+        {
+            odd=odd+m;
+        }
+        n=n/10;
+    }
+    cout<<odd<<" "<<even<<endl;
+}
