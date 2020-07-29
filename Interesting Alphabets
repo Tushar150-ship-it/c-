@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main() {
+    
+int i=1,j=1,N,k=1,val=1;
+char ch;
+cin>>N;
+while(i<=N)
+{
+j=1;
+ch='A'+N-i;
+while(j<=i)
+ {  
+ cout<<ch;
+ ch=ch+1;
+ j=j+1;
+ }
+
+cout<<endl;
+i=i+1;
+}
+}
