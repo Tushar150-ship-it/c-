@@ -1,0 +1,23 @@
+#include<iostream>
+using namespace std;
+int main() 
+{ 
+    int i,j,N,val;
+   i=1,j=1,val=1;
+   cin>>N;
+   while(i<=N)
+   {   j=i;   
+   while(j<=val)
+   {
+   cout<<j;     
+   j=j+1;
+      
+   }
+        val=val+2;
+   cout<<endl;
+   i=i+1;
+   }
+}
+
+
+
