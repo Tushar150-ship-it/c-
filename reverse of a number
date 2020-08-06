@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	// Write your code here
+int i,n,m,rev=0;
+    cin>>n;
+    while(n>=1)
+    {
+        m=n%10;
+        rev=rev*10+m;
+        n=n/10;
+    }
+    cout<<rev<<endl;
+}
