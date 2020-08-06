@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	// Write your code here
+	int i=1,n,m,s=0,u;
+    cin>>n;
+    
+    while(n>=1)
+    {
+	m=n%10;        
+    s=s+m*i;
+     n=n/10;
+    i=i*2;
+    }
+    cout<<s<<endl;
+}
