@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+    /* Read input as specified in the question.
+	 * Print output as specified in the question.
+	 */
+int i=0,j=0,k=0;
+    char c;
+    
+    while(c!='$')
+{
+        c=cin.get();
+        if(c>='a' && c<='z')
+        {i++;}
+        if(c>='0' && c<='9')
+        {
+         j++;   
+        }
+        if(c==' ' || c=='\n' || c=='\t')
+        {k++;}
+    }
+    cout<<i<<" "<<j<<" "<<k<<endl;
+   
+}
