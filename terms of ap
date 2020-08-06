@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	// Write your code here
+	int N,i=1,c;
+    cin>>N;
+    int count =1;
+    while(count<=N)
+    {
+        c=((3*i)+2);
+        
+        if(c%4!=0)
+        {
+        
+            cout<<c<<" ";
+            i=i+1;
+            count++;
+        }
+        else
+        {
+            i++;
+        }
+    
+    }
+    return 0;
+}
