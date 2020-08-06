@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+
+int main() {
+	// Write your code here
+	int N,p=1,m,s=0;
+    char c;
+    cin>>N>>c;
+    while(N!=0)
+    {
+        if( c=='1')
+        {
+        s=s+N;
+        }
+       
+        else if(c=='2')
+        {
+        p=p*N;
+        
+        }
+        else
+        {
+        cout<<"-1";
+				return 0;
+            }
+        N--;
+            }
+    if(c=='1')
+        cout<<s;
+    else if(c=='2')
+        cout<<p;
+    }
